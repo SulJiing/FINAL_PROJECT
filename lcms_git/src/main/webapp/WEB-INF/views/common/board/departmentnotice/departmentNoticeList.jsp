@@ -142,7 +142,7 @@ $(document).ready(function() {
     });
 });
 
-var cPath = $('body').data('bodyCpath')
+var cPath = $('body').data('bodyCpath');
 
 function loadNoticeDetail(noticeId) {
     $.ajax({
